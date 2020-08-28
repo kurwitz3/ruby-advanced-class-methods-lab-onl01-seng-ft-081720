@@ -44,7 +44,6 @@ class Song
        new =  artist_file.split("-")
           artist_name = new[0]
           name = new[1].split(".")
-          name.strip
            new_song_artist = self.new 
            new_song_artist.artist_name = artist_name
            new_song_artist.name = name 
