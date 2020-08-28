@@ -50,7 +50,9 @@ class Song
         new_song_artist 
      end 
      def self.ceate_from_filename
-       
+       new_song = self.new_from_filename
+       new_song.save
+     end
          
          def self.destroy_all
            @@all.clear 
